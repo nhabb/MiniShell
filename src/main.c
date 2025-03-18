@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <readline/readline.h>
-#include <readline/history.h>
+#include "../headers/minishell.h"
 
 #define MAX_ARGS 100
 #define DELIM " \t\r\n\a"  // Define delimiters (space, tab, newline)
